@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu Mar 23 20:34:30 2017
+# Process ID: 6896
+# Current directory: D:/Users/Kevin/Documents/VHDL/firfilter/firfilter.runs/impl_1
+# Command line: vivado.exe -log firfilter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source firfilter.tcl -notrace
+# Log file: D:/Users/Kevin/Documents/VHDL/firfilter/firfilter.runs/impl_1/firfilter.vdi
+# Journal file: D:/Users/Kevin/Documents/VHDL/firfilter/firfilter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source firfilter.tcl -notrace

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1490315664">
+  <File Type="ROUTE-PWR-RPX" Name="firfilter_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="firfilter.tcl"/>
+  <File Type="INIT-TIMING" Name="firfilter_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="firfilter_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="firfilter_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="firfilter.vdi"/>
+  <File Type="OPT-DCP" Name="firfilter_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="firfilter.hwdef"/>
+  <File Type="OPT-DRC" Name="firfilter_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="firfilter_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="firfilter_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="firfilter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="firfilter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="firfilter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="firfilter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="firfilter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="firfilter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="firfilter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="firfilter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="firfilter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="firfilter_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="firfilter_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="firfilter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="firfilter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="firfilter_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="firfilter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="firfilter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="firfilter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="firfilter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="firfilter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="firfilter_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="firfilter_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="firfilter.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="firfilter_methodology_drc_routed.rpt"/>
+  <File Type="BG-DRC" Name="firfilter.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="firfilter_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="firfilter.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="firfilter_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="firfilter.bgn"/>
+  <File Type="ROUTE-PWR" Name="firfilter_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="firfilter_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="firfilter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="firfilter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="firfilter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="firfilter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="firfilter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="firfilter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="firfilter_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="firfilter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="firfilter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="firfilter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="firfilter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="firfilter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="firfilter.bit"/>
+  <File Type="BITSTR-RBT" Name="firfilter.rbt"/>
+  <File Type="BITSTR-NKY" Name="firfilter.nky"/>
+  <File Type="BITSTR-BMM" Name="firfilter_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="firfilter.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="firfilter.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/firfilter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="firfilter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
