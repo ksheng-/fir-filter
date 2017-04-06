@@ -1,0 +1,717 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu Apr 06 06:44:55 2017
+# Process ID: 6620
+# Current directory: D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.runs/synth_1
+# Command line: vivado.exe -log fir.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir.tcl
+# Log file: D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.runs/synth_1/fir.vds
+# Journal file: D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fir.tcl -notrace
+Command: synth_design -top fir -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11828 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 304.012 ; gain = 94.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fir' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:21]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULT0' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'multiplier' (1#1) [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:22]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADD0' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'adder' (2#1) [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:22]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:104]
+INFO: [Synth 8-638] synthesizing module '\reg ' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:21]
+INFO: [Synth 8-256] done synthesizing module '\reg ' (3#1) [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:21]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:105]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULT1' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:106]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'reg48' (4#1) [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:21]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADD1' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:108]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:109]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY1N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:114]
+INFO: [Synth 8-3491] module 'reg' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:13' bound to instance 'DLY2N' of component 'reg' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:115]
+INFO: [Synth 8-3491] module 'multiplier' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:14' bound to instance 'MULTN' of component 'multiplier' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:116]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY3N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:117]
+INFO: [Synth 8-3491] module 'adder' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/adder.vhd:14' bound to instance 'ADDN' of component 'adder' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:118]
+INFO: [Synth 8-3491] module 'reg48' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg48.vhd:13' bound to instance 'DLY4N' of component 'reg48' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:119]
+INFO: [Synth 8-3491] module 'truncator' declared at 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/truncator.vhd:15' bound to instance 'TRUNC' of component 'truncator' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'truncator' [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/truncator.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'truncator' (5#1) [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/truncator.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'fir' (6#1) [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/fir.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 340.504 ; gain = 130.766
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 340.504 ; gain = 130.766
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/constrs_1/new/timing.xdc]
+Finished Parsing XDC File [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/constrs_1/new/timing.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 666.762 ; gain = 0.016
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 666.762 ; gain = 457.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 666.762 ; gain = 457.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 666.762 ; gain = 457.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/multiplier.vhd:29]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 666.762 ; gain = 457.023
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     48 Bit       Adders := 17    
++---Registers : 
+	               48 Bit    Registers := 30    
+	               24 Bit    Registers := 30    
++---Muxes : 
+	   2 Input     48 Bit        Muxes := 33    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module truncator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     48 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     48 Bit        Muxes := 1     
+Module multiplier 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     48 Bit        Muxes := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     48 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     48 Bit        Muxes := 1     
+Module reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+Module reg48 
+Detailed RTL Component Info : 
++---Registers : 
+	               48 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[1].second_tap.DLY3/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[2].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[3].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[4].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[5].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[6].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[7].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[8].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[9].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[10].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[11].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[12].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[13].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[14].other_taps.DLY3N/stored_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_taps[15].other_taps.DLY3N/stored_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (gen_taps[1].second_tap.DLY3/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[1].second_tap.DLY4/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[2].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[2].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[3].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[3].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[4].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[4].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[5].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[5].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[6].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[6].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[7].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[7].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[8].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[8].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[9].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[9].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[10].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[10].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[11].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[11].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[12].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[12].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[13].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[13].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[14].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[14].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY3N/stored_reg[0]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[21]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[20]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[19]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[18]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[17]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[16]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[15]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[14]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[13]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[12]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[11]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[10]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[9]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[8]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[7]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[6]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[5]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[4]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[3]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[2]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[1]) is unused and will be removed from module fir.
+WARNING: [Synth 8-3332] Sequential element (gen_taps[15].other_taps.DLY4N/stored_reg[0]) is unused and will be removed from module fir.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 666.762 ; gain = 457.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | A*B            | 24     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|multiplier  | (PCIN>>17)+A*B | 24     | 7      | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 666.762 ; gain = 457.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 689.203 ; gain = 479.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.srcs/sources_1/new/reg.vhd:27]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |   187|
+|3     |DSP48E1 |    32|
+|4     |LUT1    |    26|
+|5     |LUT2    |  2057|
+|6     |LUT3    |    61|
+|7     |FDCE    |  2109|
+|8     |IBUF    |    26|
+|9     |OBUF    |    24|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------------------------+--------------+------+
+|      |Instance                          |Module        |Cells |
++------+----------------------------------+--------------+------+
+|1     |top                               |              |  4523|
+|2     |  \gen_taps[10].other_taps.DLY1N  |\reg          |    24|
+|3     |  \gen_taps[10].other_taps.DLY2N  |reg_0         |    24|
+|4     |  TRUNC                           |truncator     |    31|
+|5     |  \gen_taps[0].first_tap.MULT0    |multiplier    |    49|
+|6     |  \gen_taps[10].other_taps.ADDN   |adder         |    12|
+|7     |  \gen_taps[10].other_taps.DLY3N  |reg48         |    48|
+|8     |  \gen_taps[10].other_taps.DLY4N  |reg48_1       |   140|
+|9     |  \gen_taps[10].other_taps.MULTN  |multiplier_2  |    49|
+|10    |  \gen_taps[11].other_taps.ADDN   |adder_3       |    12|
+|11    |  \gen_taps[11].other_taps.DLY1N  |reg_4         |    24|
+|12    |  \gen_taps[11].other_taps.DLY2N  |reg_5         |    24|
+|13    |  \gen_taps[11].other_taps.DLY3N  |reg48_6       |    48|
+|14    |  \gen_taps[11].other_taps.DLY4N  |reg48_7       |   140|
+|15    |  \gen_taps[11].other_taps.MULTN  |multiplier_8  |    49|
+|16    |  \gen_taps[12].other_taps.ADDN   |adder_9       |    12|
+|17    |  \gen_taps[12].other_taps.DLY1N  |reg_10        |    24|
+|18    |  \gen_taps[12].other_taps.DLY2N  |reg_11        |    24|
+|19    |  \gen_taps[12].other_taps.DLY3N  |reg48_12      |    48|
+|20    |  \gen_taps[12].other_taps.DLY4N  |reg48_13      |   140|
+|21    |  \gen_taps[12].other_taps.MULTN  |multiplier_14 |    49|
+|22    |  \gen_taps[13].other_taps.ADDN   |adder_15      |    12|
+|23    |  \gen_taps[13].other_taps.DLY1N  |reg_16        |    24|
+|24    |  \gen_taps[13].other_taps.DLY2N  |reg_17        |    24|
+|25    |  \gen_taps[13].other_taps.DLY3N  |reg48_18      |    48|
+|26    |  \gen_taps[13].other_taps.DLY4N  |reg48_19      |   140|
+|27    |  \gen_taps[13].other_taps.MULTN  |multiplier_20 |    49|
+|28    |  \gen_taps[14].other_taps.ADDN   |adder_21      |    12|
+|29    |  \gen_taps[14].other_taps.DLY1N  |reg_22        |    24|
+|30    |  \gen_taps[14].other_taps.DLY2N  |reg_23        |    24|
+|31    |  \gen_taps[14].other_taps.DLY3N  |reg48_24      |    48|
+|32    |  \gen_taps[14].other_taps.DLY4N  |reg48_25      |   120|
+|33    |  \gen_taps[14].other_taps.MULTN  |multiplier_26 |    49|
+|34    |  \gen_taps[15].other_taps.ADDN   |adder_27      |    12|
+|35    |  \gen_taps[15].other_taps.DLY1N  |reg_28        |    24|
+|36    |  \gen_taps[15].other_taps.DLY2N  |reg_29        |    24|
+|37    |  \gen_taps[15].other_taps.DLY3N  |reg48_30      |    47|
+|38    |  \gen_taps[15].other_taps.DLY4N  |reg48_31      |    52|
+|39    |  \gen_taps[15].other_taps.MULTN  |multiplier_32 |    49|
+|40    |  \gen_taps[1].second_tap.ADD1    |adder_33      |    12|
+|41    |  \gen_taps[1].second_tap.DLY1    |reg_34        |    24|
+|42    |  \gen_taps[1].second_tap.DLY2    |reg_35        |    24|
+|43    |  \gen_taps[1].second_tap.DLY3    |reg48_36      |    94|
+|44    |  \gen_taps[1].second_tap.DLY4    |reg48_37      |   140|
+|45    |  \gen_taps[1].second_tap.MULT1   |multiplier_38 |    49|
+|46    |  \gen_taps[2].other_taps.ADDN    |adder_39      |    12|
+|47    |  \gen_taps[2].other_taps.DLY1N   |reg_40        |    24|
+|48    |  \gen_taps[2].other_taps.DLY2N   |reg_41        |    24|
+|49    |  \gen_taps[2].other_taps.DLY3N   |reg48_42      |    48|
+|50    |  \gen_taps[2].other_taps.DLY4N   |reg48_43      |   140|
+|51    |  \gen_taps[2].other_taps.MULTN   |multiplier_44 |    49|
+|52    |  \gen_taps[3].other_taps.ADDN    |adder_45      |    12|
+|53    |  \gen_taps[3].other_taps.DLY1N   |reg_46        |    24|
+|54    |  \gen_taps[3].other_taps.DLY2N   |reg_47        |    24|
+|55    |  \gen_taps[3].other_taps.DLY3N   |reg48_48      |    48|
+|56    |  \gen_taps[3].other_taps.DLY4N   |reg48_49      |   140|
+|57    |  \gen_taps[3].other_taps.MULTN   |multiplier_50 |    49|
+|58    |  \gen_taps[4].other_taps.ADDN    |adder_51      |    12|
+|59    |  \gen_taps[4].other_taps.DLY1N   |reg_52        |    24|
+|60    |  \gen_taps[4].other_taps.DLY2N   |reg_53        |    24|
+|61    |  \gen_taps[4].other_taps.DLY3N   |reg48_54      |    48|
+|62    |  \gen_taps[4].other_taps.DLY4N   |reg48_55      |   140|
+|63    |  \gen_taps[4].other_taps.MULTN   |multiplier_56 |    49|
+|64    |  \gen_taps[5].other_taps.ADDN    |adder_57      |    12|
+|65    |  \gen_taps[5].other_taps.DLY1N   |reg_58        |    24|
+|66    |  \gen_taps[5].other_taps.DLY2N   |reg_59        |    24|
+|67    |  \gen_taps[5].other_taps.DLY3N   |reg48_60      |    48|
+|68    |  \gen_taps[5].other_taps.DLY4N   |reg48_61      |   140|
+|69    |  \gen_taps[5].other_taps.MULTN   |multiplier_62 |    49|
+|70    |  \gen_taps[6].other_taps.ADDN    |adder_63      |    12|
+|71    |  \gen_taps[6].other_taps.DLY1N   |reg_64        |    24|
+|72    |  \gen_taps[6].other_taps.DLY2N   |reg_65        |    24|
+|73    |  \gen_taps[6].other_taps.DLY3N   |reg48_66      |    48|
+|74    |  \gen_taps[6].other_taps.DLY4N   |reg48_67      |   140|
+|75    |  \gen_taps[6].other_taps.MULTN   |multiplier_68 |    49|
+|76    |  \gen_taps[7].other_taps.ADDN    |adder_69      |    12|
+|77    |  \gen_taps[7].other_taps.DLY1N   |reg_70        |    24|
+|78    |  \gen_taps[7].other_taps.DLY2N   |reg_71        |    24|
+|79    |  \gen_taps[7].other_taps.DLY3N   |reg48_72      |    48|
+|80    |  \gen_taps[7].other_taps.DLY4N   |reg48_73      |   140|
+|81    |  \gen_taps[7].other_taps.MULTN   |multiplier_74 |    49|
+|82    |  \gen_taps[8].other_taps.ADDN    |adder_75      |    12|
+|83    |  \gen_taps[8].other_taps.DLY1N   |reg_76        |    24|
+|84    |  \gen_taps[8].other_taps.DLY2N   |reg_77        |    24|
+|85    |  \gen_taps[8].other_taps.DLY3N   |reg48_78      |    48|
+|86    |  \gen_taps[8].other_taps.DLY4N   |reg48_79      |   140|
+|87    |  \gen_taps[8].other_taps.MULTN   |multiplier_80 |    49|
+|88    |  \gen_taps[9].other_taps.ADDN    |adder_81      |    12|
+|89    |  \gen_taps[9].other_taps.DLY1N   |reg_82        |    24|
+|90    |  \gen_taps[9].other_taps.DLY2N   |reg_83        |    24|
+|91    |  \gen_taps[9].other_taps.DLY3N   |reg48_84      |    48|
+|92    |  \gen_taps[9].other_taps.DLY4N   |reg48_85      |   140|
+|93    |  \gen_taps[9].other_taps.MULTN   |multiplier_86 |    49|
++------+----------------------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 705.891 ; gain = 496.152
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 51 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 705.891 ; gain = 151.801
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 705.891 ; gain = 496.152
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 245 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+168 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 705.891 ; gain = 486.641
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Kevin/Documents/VHDL/fir-filter/fir_retimed/fir_retimed.runs/synth_1/fir.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 705.891 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 06 06:45:42 2017...

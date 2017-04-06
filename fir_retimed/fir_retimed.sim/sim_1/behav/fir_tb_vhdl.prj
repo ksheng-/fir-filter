@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sources_1/new/reg48.vhd"
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sources_1/new/adder.vhd"
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sources_1/new/multiplier.vhd"
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sources_1/new/truncator.vhd"
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sources_1/new/reg.vhd"
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sources_1/new/fir.vhd"
+vhdl xil_defaultlib  "../../../fir_retimed.srcs/sim_1/new/fir_tb.vhd"
+
+# Do not sort compile order
+nosort
